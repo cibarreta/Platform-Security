@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url() no-repeat;
+  background: url(https://github.com/cibarreta/Platform-Security/blob/main/c.png) no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,4 +97,5 @@ footer {
   color: #fff;
   margin-top: 20px;
 }
+
 
