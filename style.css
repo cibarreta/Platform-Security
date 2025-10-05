@@ -109,7 +109,7 @@ header .fa-bars {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(https://cibarreta.github.io/Platform-Security/c.png) no-repeat;
+    background: url(c.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -269,5 +269,6 @@ header .fa-bars {
         width: 90%;
     }
 }
+
 
 
