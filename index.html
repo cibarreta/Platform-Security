@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">w
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Platform Security</title>
@@ -14,22 +14,130 @@
     <body>
 
         <header>
+
             <a href="#" class="logo">PST<span>.</span></a>
+
         </header>
 
         <section class="about" id="about">
 
             <div class="content">
                 <h3>Platform Security</h3>
-                <p>Platform Security refers to the practices and technologies used to protect online platforms, 
-                    applications, and user data from unauthorized access, cyber threats, and other security risks. 
-                    With the increasing use of digital services, maintaining platform security is essential to safeguard 
-                    personal information, ensure privacy, and prevent cyberattacks. By following proper security measures, 
-                    such as strong authentication, secure connections, and regular monitoring, users and organizations can 
-                    minimize vulnerabilities and maintain a safe online environment.</p>
             </div>
 
         </section>
+
+        <section class="extra" id="extra">
+        <h1 class="heading"><span>Lessons</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Introduction to Platform Security</h3>
+                <p>Platform Security is a comprehensive approach to safeguarding computing
+                    platforms—including hardware, operating systems, software applications,
+                    and data—from internal and external threats. It plays a vital role in
+                    ensuring that systems remain secure, reliable, and functional while
+                    maintaining the trust of users and organizations. The lesson emphasizes
+                    the importance of securing all layers of a platform: physical security
+                    protects hardware from theft or tampering; firmware and boot security
+                    prevent unauthorized system startups; operating system security enforces
+                    updates and access control; application security guards against malicious 
+                    code; network security uses firewalls and VPNs to protect data in transit; 
+                    and data security employs encryption to keep sensitive information safe.</p>
+                
+                <p>The CIA Triad—Confidentiality, Integrity, and Availability—serves as the core 
+                    foundation of information security. Confidentiality ensures that private data
+                    is accessed only by authorized individuals, integrity guarantees that information
+                    remains accurate and unaltered, and availability ensures that authorized users can
+                    access systems and data when needed. To strengthen these principles, authentication
+                    methods such as passwords, tokens, and biometrics verify user identities, while multi-factor
+                    authentication (MFA) adds an extra layer of protection. The lesson also covers non-repudiation,
+                    which ensures accountability by preventing users from denying their actions, and privacy, which
+                    protects individuals’ personal data in compliance with laws such as the General Data Protection Regulation (GDPR).</p>
+                
+                <p>Furthermore, the lesson discusses Information Security Risk Management, a structured process that involves
+                    identifying valuable assets, recognizing vulnerabilities, and analyzing threats that could exploit them.
+                    Threat actors can include insiders, hackers, competitors, or automated bots. Once risks are assessed, organizations
+                    apply treatment strategies such as avoidance (eliminating the risk), mitigation (reducing the impact), acceptance
+                    (acknowledging the risk), or transference (shifting it to another party, like insurance).</p>
+                
+                <p>In summary, platform security integrates technological measures, organizational policies,
+                    and human awareness to create a multi-layered defense against cyberattacks. By applying the CIA Triad,
+                    enforcing authentication, ensuring privacy, and managing risks effectively, organizations can maintain
+                    the stability, confidentiality, and resilience of their information systems in an increasingly digital world.</p>
+            </div>
+
+            <div class="box">
+                <h3>Security Awareness Training</h3>
+                <p>The Security Awareness Training lesson focuses on the vital role humans play in cybersecurity.
+                    It explains that people are often the weakest link in an organization’s defense, as even advanced
+                    security tools cannot prevent errors caused by carelessness or lack of awareness. The lesson cites
+                    the PhilHealth Medusa attack as an example of how data breaches can lead to serious consequences such
+                    as identity theft, fraud, and claim issues. It reminds individuals that everyone is a potential target
+                    because attackers seek access to company systems through weak passwords, reused credentials, and unsecured personal devices.</p>
+                
+                <p>A major topic discussed is phishing attacks, one of the most common forms of cybercrime. Phishing can occur 
+                    through emails (email phishing), text messages (smishing), phone calls (vishing), and fake websites that 
+                    trick users into revealing personal or financial information. The lesson teaches how to identify phishing 
+                    attempts by recognizing warning signs such as unknown senders, unrealistic promises, poor grammar, suspicious 
+                    links, and messages with a sense of urgency. To protect themselves, individuals are encouraged to verify the sender’s 
+                    identity, avoid clicking on unfamiliar links, never share personal information, and use official websites instead of 
+                    links provided in messages.</p>
+                
+                <p>The lesson also covers malware, software created by cybercriminals to harm or exploit devices and networks. It lists 
+                    indicators of infection such as slow performance, frequent pop-ups, and device overheating. Other threats include 
+                    business email compromise, where hackers impersonate trusted contacts to steal money or data, and insider threats, 
+                    where employees misuse their access to systems for revenge or personal gain. To counter these risks, the training 
+                    advises enabling two-factor authentication (2FA), avoiding suspicious downloads, and verifying unusual requests 
+                    through alternative communication channels.</p>
+                
+                <p>Lastly, the lesson provides essential cyber hygiene practices to enhance online safety. These include performing 
+                    regular data backups to recover from attacks, keeping software and systems up to date to patch vulnerabilities, 
+                    and using strong, unique passphrases instead of simple passwords. It also promotes the use of password managers 
+                    for secure storage. The lesson concludes by emphasizing that data is the new gold, meaning that personal and 
+                    organizational information holds immense value. Therefore, everyone must take responsibility for protecting 
+                    their data and maintaining privacy to ensure a safer and more secure digital environment.</p>
+            </div>
+
+            <div class="box">
+                <h3>Platform Architecture</h3>
+                <p>The Platform Architecture lesson explains the structure and layers of a computing platform, which include 
+                    hardware, firmware, operating systems, and applications. Hardware consists of physical components such as the CPU, 
+                    memory, and storage, while firmware like BIOS or UEFI initializes the hardware before the system starts. The operating 
+                    system (OS) manages hardware resources and enforces security, and applications provide user-level services. The lesson 
+                    also compares mobile and desktop platforms, noting that mobile platforms focus on portability, battery efficiency, and 
+                    app sandboxing, while desktops offer higher performance and flexibility but have a larger attack surface. Additionally, 
+                    it discusses cloud and virtualization platforms, which increase resource efficiency but introduce new risks such as 
+                    misconfigurations and VM escape attacks.</p>
+                
+                <p>A key topic in the lesson is the Trusted Platform Module (TPM), a hardware-based security chip that acts as the Root 
+                    of Trust in a computing platform. TPM operates independently from the main CPU and provides secure storage, encryption, 
+                    and attestation. It ensures secure booting by verifying that the system has not been tampered with before starting the 
+                    operating system, protecting against firmware and boot-level malware. The lesson also introduces UEFI, the modern replacement 
+                    for BIOS, which serves as a bridge between hardware and the OS. Together with TPM, it supports the Chain of Trust, where each 
+                    stage of the boot process verifies the integrity of the next stage. The lesson also differentiates TPM 1.2 and TPM 2.0, 
+                    highlighting that TPM 2.0 offers stronger cryptographic algorithms and is required for modern systems such as Windows 11.</p>
+                
+                <p>The lesson then explores Virtualization, a technology that allows multiple virtual machines (VMs) to run simultaneously 
+                    on one physical server. Each VM operates independently with its own OS and applications, optimizing hardware utilization 
+                    and reducing costs. There are several types of virtualization, including server, desktop, network, storage, and application 
+                    virtualization. Virtualization relies on hypervisors, which manage resources between virtual machines. Type 1 (bare-metal) 
+                    hypervisors run directly on hardware and offer better performance, while Type 2 (hosted) hypervisors run on top of a host OS. 
+                    Despite its advantages—like cost efficiency, agility, and improved disaster recovery—virtualization also brings risks such as 
+                    hyperjacking, VM escape, and misconfiguration vulnerabilities, which can compromise entire systems if not managed properly.</p>
+                
+                <p>To maintain secure virtualization environments, the lesson recommends several best practices. Administrators should keep 
+                    hypervisors updated, enforce strict access controls with multi-factor authentication (MFA), and follow recognized security 
+                    baselines such as CIS or NIST standards. It’s also important to monitor VM behavior, control network traffic using virtual 
+                    switches and VLAN segmentation, and encrypt VM images and storage. Techniques like VM isolation, resource allocation controls, 
+                    and snapshot encryption further strengthen system security. Overall, the Platform Architecture lesson emphasizes that combining 
+                    trusted hardware components like TPM with secure virtualization practices builds a stronger, more reliable, and well-protected computing environment.</p>
+            </div>
+
+
+    </section>
+
+        
 
         <section class="tips" id="tips">
 
@@ -39,7 +147,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/1.png" alt="">
+                        <img src="pics/1.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -51,7 +159,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/2.png" alt="">
+                        <img src="pics/2.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -63,7 +171,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/3.png" alt="">
+                        <img src="pics/3.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -74,7 +182,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/4.png" alt="">
+                        <img src="pics/4.png" alt="">
                        
                     </div>
                     <div class="content">
@@ -85,7 +193,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/5.png" alt="">
+                        <img src="pics/5.png" alt="">
                     
                     </div>
                     <div class="content">
@@ -96,7 +204,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/6.png" alt="">
+                        <img src="pics/6.png" alt="">
                     </div>
 
                     <div class="content">
@@ -107,7 +215,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/7.png" alt="">
+                        <img src="pics/7.png" alt="">
                     </div>
 
                     <div class="content">
@@ -118,7 +226,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/8.png" alt="">
+                        <img src="pics/8.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -129,7 +237,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/9.png" alt="">
+                        <img src="pics/9.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -140,7 +248,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/10.png" alt="">
+                        <img src="pics/10.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -151,7 +259,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/11.png" alt="">
+                        <img src="pics/11.png" alt="">
                         
                     </div>
                     <div class="content">
@@ -162,7 +270,7 @@
 
                 <div class="box">
                     <div class="image">
-                        <img src="https://cibarreta.github.io/Platform-Security/12.png" alt="">
+                        <img src="pics/12.png" alt="">
                     
                     </div>
                     <div class="content">
@@ -177,14 +285,9 @@
 
         <section class="footer">
 
-            <div class="credit"> &copy; 2025 <span>PS</span>   | all rights reserved</div>
+            <div class="credit"> &copy; 2025 <span>PST</span>   | all rights reserved</div>
 
         </section>
 
     </body>
 </html>
-
-
-
-
-
